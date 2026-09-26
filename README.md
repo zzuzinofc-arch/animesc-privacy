@@ -1,6 +1,6 @@
-# AnimesC — páginas legais
+# Animesᶜ — páginas legais
 
-Site estático das páginas legais do aplicativo **AnimesC**.
+Site estático das páginas legais do aplicativo **Animesᶜ**.
 
 ## Páginas
 
