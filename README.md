@@ -1,6 +1,6 @@
 # AnimesC — páginas legais
 
-Site estático das páginas legais do aplicativo **AnimesC**, desenvolvido pela **CAS LAB**.
+Site estático das páginas legais do aplicativo **AnimesC**.
 
 ## Páginas
 
@@ -15,9 +15,9 @@ O site é publicado gratuitamente pelo GitHub Pages a partir da branch `main`, d
 
 URL: <https://zzuzinofc-arch.github.io/animesc-privacy/>
 
-## Antes do uso definitivo
+## Contato
 
-Substitua todas as ocorrências de `[EMAIL DE SUPORTE]` pelo endereço oficial de suporte da CAS LAB.
+E-mail de suporte: <animescsupport@gmail.com>
 
 ## Tecnologia e privacidade
 

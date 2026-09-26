@@ -73,7 +73,12 @@ a:hover { color: #ff8997; }
   letter-spacing: -.03em;
 }
 
-.brand span { color: var(--accent); }
+.brand sup, .brand-mark sup {
+  color: var(--accent);
+  font-size: .58em;
+  line-height: 0;
+  vertical-align: super;
+}
 
 .nav-links {
   display: flex;
