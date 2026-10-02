@@ -1437,3 +1437,81 @@ body.marketing::before {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ===== Official support-site cleanup 2026-10-02 ===== */
+.app-icon-img {
+  width: 76px;
+  height: 76px;
+  display: block;
+  margin-bottom: 1.1rem;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(0,0,0,.38);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: .85rem;
+  margin-bottom: .9rem;
+}
+
+.faq-card {
+  min-height: 190px;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 17px;
+  background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(239,35,60,.02));
+}
+
+.faq-card > span {
+  display: inline-block;
+  margin-bottom: 1.4rem;
+  color: var(--accent);
+  font-size: .66rem;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+
+.faq-card h3 {
+  margin: 0 0 .55rem;
+  color: #fff;
+  font-size: 1.08rem;
+}
+
+.faq-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.65;
+}
+
+.feature-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-large {
+  grid-column: span 2;
+}
+
+.search-demo,
+.testing-note,
+.find-actions code {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .feature-large {
+    grid-column: 1 !important;
+  }
+}
